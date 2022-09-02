@@ -29,7 +29,7 @@ for i in range(len(t)):
     plt.plot(v, wien(v),'--',color=color[i])
     plt.yscale('log')
     plt.xscale('log')
-plt.title(r'$log_{10}(I_\nu)\;vs\; log_{\nu}$ for black body')
+plt.title(r'$log_{10}(I_\nu)\;vs\; log_{10}(\nu)$ for black body')
 plt.legend()
 #plt.xlim([1e2,1e22])
 plt.ylim([1e-25,1e8])
